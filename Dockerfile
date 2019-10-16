@@ -1,7 +1,7 @@
 FROM lsiobase/ubuntu:bionic
 
 # set version label
-ARG BUILD_DATE = "16102019"
+ARG BUILD_DATE
 ARG VERSION
 ARG PLEX_RELEASE
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
